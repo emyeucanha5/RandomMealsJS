@@ -62,5 +62,10 @@ function getLS(){
 }
 function setupLS(){
 	const meal = getLS();
-	display(meal);
+	if(meal){
+		//do not thing
+	}else{
+		display(meal);	
+	}
+	
 }
